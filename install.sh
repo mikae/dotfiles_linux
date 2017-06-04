@@ -61,6 +61,7 @@ bash ./generate_grub_config.sh
 bash ./allow_users_to_poweroff.sh
 bash ./change_dns_to_opendns.sh
 bash ./copy_configs.sh
+bash ./iptables.sh
 
 #bash ./install_packages.sh
 
