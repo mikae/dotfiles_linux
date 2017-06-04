@@ -30,6 +30,7 @@ sudo ip6tables -A INPUT -s fe80::/10 -p ipv6-icmp -j ACCEPT
 sudo ip6tables -A INPUT -p udp -m conntrack --ctstate NEW -j REJECT --reject-with icmp6-port-unreachable
 sudo ip6tables -A INPUT -p tcp -m tcp --tcp-flags FIN,SYN,RST,ACK SYN -m conntrack --ctstate NEW -j REJECT --reject-with tcp-reset
 
+# Added iptables services
 sudo systemctl enable iptables-store.service
 sudo systemctl enable iptables-restore.service
 sudo systemctl enable ip6tables-restore.service
