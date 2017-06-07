@@ -2,7 +2,6 @@
 ::1		localhost
 
 # Block bad sites
-127.0.0.1 www.joyreactor.cc
 127.0.0.1 www.vk.com
 127.0.0.1 www.pikabu.ru
 127.0.0.1 www.readmanga.me
@@ -10,7 +9,6 @@
 127.0.0.1 www.naver.com
 127.0.0.1 www.webtoons.com
 
-127.0.0.1 joyreactor.cc
 127.0.0.1 vk.com
 127.0.0.1 pikabu.ru
 127.0.0.1 readmanga.me
