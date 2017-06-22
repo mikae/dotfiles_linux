@@ -20,7 +20,7 @@ sudo chmod a+x /etc/grub.d/41_custom
 
 sudo su -c "cat > /etc/default/grub << EOF
 GRUB_DISTRIBUTOR=\"$DISTRIBUTION_NAME\"
-GRUB_CMDLINE_LINUX=\"rw init=/usr/lib/systemd/systemd rtl8723be.fwlps=0\"
+GRUB_CMDLINE_LINUX=\"rw init=/usr/lib/systemd/systemd rtl8723be.fwlps=0 nouveau.blacklist=1\"
 EOF"
 
 echo_green 'Making configuration'

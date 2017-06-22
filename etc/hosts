@@ -2,16 +2,18 @@
 ::1		localhost
 
 # Block bad sites
-127.0.0.1 www.vk.com
 127.0.0.1 www.pikabu.ru
 127.0.0.1 www.readmanga.me
 127.0.0.1 www.mintmanga.com
 127.0.0.1 www.naver.com
 127.0.0.1 www.webtoons.com
+127.0.0.1 www.nekto.me
+127.0.0.1 www.animechan.ru
 
-127.0.0.1 vk.com
 127.0.0.1 pikabu.ru
 127.0.0.1 readmanga.me
 127.0.0.1 mintmanga.com
 127.0.0.1 naver.com
 127.0.0.1 webtoons.com
+127.0.0.1 nekto.me
+127.0.0.1 animechan.ru
