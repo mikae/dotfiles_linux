@@ -1,4 +1,6 @@
-127.0.0.1	localhost
+127.0.0.1	 localhost
+127.0.1.1	 yui-pc
+192.168.1.37 kurumi-pc
 ::1		localhost
 
 # Block bad sites
