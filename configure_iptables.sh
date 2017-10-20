@@ -13,6 +13,7 @@ sudo iptables -A INPUT -i lo -j ACCEPT
 sudo iptables -A INPUT -p icmp --icmp-type 3 -j ACCEPT
 sudo iptables -A INPUT -p icmp --icmp-type 11 -j ACCEPT
 sudo iptables -A INPUT -p icmp --icmp-type 12 -j ACCEPT
+sudo iptables -A INPUT -p tcp -s 192.168.1.61 --dport 8000 -j ACCEPT
 sudo iptables -A INPUT -p tcp --syn --dport 113 -j REJECT --reject-with tcp-reset
 
 sudo ip6tables -F
